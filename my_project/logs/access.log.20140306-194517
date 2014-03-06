@@ -1,0 +1,5 @@
+141.106.202.92 - - [06/Mar/2014:19:45:17 +0000] "GET /cgin HTTP/1.1" 301 350 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:19:45:17 +0000] "GET /cgin/ HTTP/1.1" 200 487 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:19:48:15 +0000] "GET /cgin HTTP/1.1" 301 350 "-" "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; LG-P769 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+141.106.202.92 - - [06/Mar/2014:19:48:15 +0000] "GET /cgin/ HTTP/1.1" 200 487 "-" "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; LG-P769 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+141.106.202.92 - - [06/Mar/2014:19:48:16 +0000] "GET /favicon.ico HTTP/1.1" 404 500 "http://swingc.com/cgin/" "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; LG-P769 Build/IMM76L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"

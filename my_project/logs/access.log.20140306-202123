@@ -1,0 +1,6 @@
+141.106.202.92 - - [06/Mar/2014:20:21:23 +0000] "GET / HTTP/1.1" 404 361 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:20:21:27 +0000] "GET /cgin HTTP/1.1" 301 349 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:20:21:27 +0000] "GET /cgin/ HTTP/1.1" 200 487 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:20:21:32 +0000] "GET /cginv/ HTTP/1.1" 200 481 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:20:21:45 +0000] "GET /cgckb HTTP/1.1" 301 351 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+141.106.202.92 - - [06/Mar/2014:20:21:45 +0000] "GET /cgckb/ HTTP/1.1" 200 475 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"

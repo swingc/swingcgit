@@ -1,0 +1,6 @@
+184.58.162.245 - - [06/Mar/2014:05:04:47 +0000] "GET /admin/ HTTP/1.1" 200 1289 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [06/Mar/2014:05:04:54 +0000] "POST /admin/ HTTP/1.1" 500 22835 "http://swingc.com/admin/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [06/Mar/2014:05:04:59 +0000] "GET /admin/ HTTP/1.1" 200 1289 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [06/Mar/2014:05:04:59 +0000] "GET /static/admin/img/nav-bg.gif HTTP/1.1" 304 186 "http://swingc.com/admin/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [06/Mar/2014:05:05:05 +0000] "POST /admin/ HTTP/1.1" 500 22844 "http://swingc.com/admin/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [06/Mar/2014:05:05:15 +0000] "POST /admin/ HTTP/1.1" 500 22895 "http://swingc.com/admin/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
