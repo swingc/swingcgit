@@ -19,5 +19,6 @@ urlpatterns = patterns('',
 	url('^llchb/',llchb),
 	url('^xjjjhb/',xjjjhb),
 	url('^xjjchb/',xjjchb),
+		url('^xjjchb2/',xjjchb),
  
 )
