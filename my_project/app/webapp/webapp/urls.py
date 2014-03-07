@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from webapp.views import index,hello, lljhb,llchb,xjjjhb,xjjchb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+from webapp.views import index,dr,hello, lljhb,llchb,xjjjhb,xjjchb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
 
 from django.contrib import admin
 admin.autodiscover()
@@ -12,6 +12,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 	url('^dealin/',dealin),
+	url('^dr/',dr),
 	url('^cgin/',cgin),
 	url('^cgckb/',cgckb),
         url('^cginv/',cginv), 
