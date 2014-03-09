@@ -32,7 +32,7 @@ def cgckb(request):
 
 def cgin(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/forms/d/1lnKGI1tsJY6QYqWiU2LljLQ6PNOWuUC78ckHt4YFZNo/viewform?embedded=true" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1iHDbaCVWkGRXSf2qI916Cr155PsHqNKHZjdQc_BwNew/viewform?embedded=true" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 def cginv(request):
@@ -43,7 +43,7 @@ def cginv(request):
 
 def lljhb(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dHQxVjAwZktBQXRUTzd3WGdmZ1BSTGc&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dHQxVjAwZktBQXRUTzd3WGdmZ1BSTGc&usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 def llchb(request):
@@ -53,7 +53,7 @@ def llchb(request):
 
 def xjjjhb(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEQtdXN5QXg4UlI3QWVpeEh5dEtuNXc&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEQtdXN5QXg4UlI3QWVpeEh5dEtuNXc&usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 def xjjchb(request):
