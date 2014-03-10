@@ -1,8 +1,12 @@
 from django.http import HttpResponse
-
+from django.shortcuts import render_to_response
 import datetime
 
 import cStringIO
+def current_time(request):
+	now = datatime.datetime.now()
+	return render_to_response('curent_time.html',{'current_date':now})
+
 
 def My_Homepage_view(request):
     return HttpResponse("swing.com")
