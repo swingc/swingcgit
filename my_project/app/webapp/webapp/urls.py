@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from webapp.views import jipiao, current_time,index,dr,hello, lljhb,llchb,xjjjhb,xjjchb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+from webapp.views import instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,xjjjhb,xjjchb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
 
 from django.contrib import admin
 admin.autodiscover()
@@ -22,5 +22,6 @@ urlpatterns = patterns('',
 	url('^xjjchb/',xjjchb),
 		url('^xjjchb2/',xjjchb),
 		url('^jipiao/',jipiao),
+		url('^instockbaby/$',instockbaby),
  
 )
