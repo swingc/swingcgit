@@ -16,6 +16,13 @@ def My_Homepage_view(request):
 def hello(request):
     return HttpResponse("Hello world")
 
+https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEE4UXBsTGtUcUlSaTQyUmROS194aWc&usp=sharing
+
+
+def instockbaby(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEE4UXBsTGtUcUlSaTQyUmROS194aWc&usp=sharing" width="1000" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    return HttpResponse(html)
 
 def dealin(request):
     now = datetime.datetime.now()
