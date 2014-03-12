@@ -21,5 +21,6 @@ urlpatterns = patterns('',
 	url('^xjjjhb/',xjjjhb),
 	url('^xjjchb/',xjjchb),
 		url('^xjjchb2/',xjjchb),
+		url('^jipiao/$',jipiao),
  
 )
