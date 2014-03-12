@@ -16,8 +16,7 @@ def My_Homepage_view(request):
 def hello(request):
     return HttpResponse("Hello world")
 
-https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEE4UXBsTGtUcUlSaTQyUmROS194aWc&usp=sharing
-
+ 
 
 def instockbaby(request):
     now = datetime.datetime.now()
