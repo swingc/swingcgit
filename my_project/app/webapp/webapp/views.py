@@ -67,13 +67,11 @@ def xjjchb(request):
 
 def jipiao(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/1MLuuPcB5Of71uXa-Evwyh0--AZxcZjzsKQbf71vw_0I/edit?usp=sharing
-" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/1MLuuPcB5Of71uXa-Evwyh0--AZxcZjzsKQbf71vw_0I/edit?usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 
-https://docs.google.com/spreadsheets/d/1MLuuPcB5Of71uXa-Evwyh0--AZxcZjzsKQbf71vw_0I/edit?usp=sharing
-
+ 
 
 text = """<html><head></head><body topmargin = 100 leftmargin = 0><center><form method="get" action="/index/"> <font size="5">Search:</font><input type="text" name="a" value=""
 style="width:350px; height:35px; font-size:20px" size="30"><input type="submit" value="GO"></form></center></body></html>"""
