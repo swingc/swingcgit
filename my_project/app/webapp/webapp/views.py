@@ -47,7 +47,7 @@ def cgin(request):
 
 def cginv(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0Apf9w0x6momDdFItS0Ywa1lXWUUwQWFoRmZqQ3llUlE&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0Apf9w0x6momDdFRHRmh0bzZzd0ZGS2lZVW13MWVYakE&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 
