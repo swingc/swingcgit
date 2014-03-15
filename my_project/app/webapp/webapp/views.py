@@ -42,7 +42,7 @@ def cgckb(request):
 
 def cgin(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/forms/d/1iHDbaCVWkGRXSf2qI916Cr155PsHqNKHZjdQc_BwNew/viewform?embedded=true" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1V7Bcos6dluQqBP9E45sVDBxMvFUhVoNcRMZMOqrjy3w/viewform?embedded=true" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 def cginv(request):
