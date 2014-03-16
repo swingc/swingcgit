@@ -83,4 +83,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_ROOT = '/srv/my_project/app/webapp/site_media/'
-TEMPLATE_DIRS = '/srv/my_project/app/templates/',
+TEMPLATE_DIRS = '/srv/my_project/app/templates',
