@@ -1,11 +1,15 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
+from django.template.loader import get_template
+from django.template import Context
 import datetime
 
 import cStringIO
 def current_time(request):
 	now = datatime.datetime.now()
-	return render_to_response('curent_time.html',{'current_date':now})
+	t = get_template('current_time.html')
+	html = t.render(Context({'current_data':now}))
+	return HttpResponse(html)
 
 
 def My_Homepage_view(request):
