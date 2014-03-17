@@ -6,7 +6,7 @@ import datetime
 
 import cStringIO
 def current_time(request):
-	now = datatime.datetime.now()
+	now = datetime.datetime.now()
 	t = get_template('/srv/my_project/app/templates/current_time.html')
 	html = t.render(Context({'current_data':now}))
 	return HttpResponse(html)
