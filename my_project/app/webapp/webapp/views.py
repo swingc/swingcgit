@@ -76,7 +76,7 @@ def xjjchb(request):
     return HttpResponse(html)
     
     
-def wenjiage(request):
+def baojia(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/forms/d/1P0YKbDlGq6AOhWmSfyJNQOlRwfnKD16abwWWoUWiOyA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
