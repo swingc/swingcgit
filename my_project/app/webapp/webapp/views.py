@@ -78,8 +78,14 @@ def xjjchb(request):
     
 def baojia(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/forms/d/1P0YKbDlGq6AOhWmSfyJNQOlRwfnKD16abwWWoUWiOyA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/1yS80jWkXkXZuYLOSzuesPeZKuoQgcEnOZXRkeNckMH8/edit?usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
+
+def baojiabiao(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1P0YKbDlGq6AOhWmSfyJNQOlRwfnKD16abwWWoUWiOyA/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    return HttpResponse(html)
+
 
 
 
