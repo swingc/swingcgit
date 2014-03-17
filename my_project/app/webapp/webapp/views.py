@@ -75,8 +75,16 @@ def sjyjhb(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEQtdXN5QXg4UlI3QWVpeEh5dEtuNXc&usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
+    
+    <iframe src="https://docs.google.com/forms/d/1ba4pS28e5MVnibkzLUaTYTGFUpfyMVCyr8L62utSG0w/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-def xjjchb(request):
+def sjych(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1ba4pS28e5MVnibkzLUaTYTGFUpfyMVCyr8L62utSG0w/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    return HttpResponse(html)
+
+
+def sjychb(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEtKTFYydlhBNVJPOFdMRDhNNG92V1E&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
