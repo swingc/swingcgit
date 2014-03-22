@@ -113,6 +113,13 @@ def lishulink(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="http://www.wuyoumall.com/stock/register/updatestock.php?id=kpf&ref=$H$9q/6cLaukg8N/RVQyX6vEAjURt0B3R/" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
+    
+    
+
+def legolink(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="http://www.wuyoumall.com/ctmcmx-store/stock.php?id=KPF&alias=$H$9Bn9/SXRI14k16viDpgk97ImoWdt7q/&display=all" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    return HttpResponse(html)
  
 
 text = """<html><head></head><body topmargin = 100 leftmargin = 0><center><form method="get" action="/index/"> <font size="5">Search:</font><input type="text" name="a" value=""
