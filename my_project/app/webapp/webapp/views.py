@@ -108,6 +108,11 @@ def jipiao(request):
     return HttpResponse(html)
 
 
+
+def lishulink(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="http://www.wuyoumall.com/stock/register/updatestock.php?id=kpf&ref=$H$9q/6cLaukg8N/RVQyX6vEAjURt0B3R/" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    return HttpResponse(html)
  
 
 text = """<html><head></head><body topmargin = 100 leftmargin = 0><center><form method="get" action="/index/"> <font size="5">Search:</font><input type="text" name="a" value=""
