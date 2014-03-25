@@ -1,0 +1,18 @@
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92] mod_wsgi (pid=8443): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92] Traceback (most recent call last):
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     response = self.get_response(request)
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     if resolver.urlconf_module is None:
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     self._urlconf_module = import_module(self.urlconf_name)
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     __import__(name)
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/app/webapp/webapp/urls.py", line 3, in <module>
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     from webapp.views import instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,xjjjhb,xjjchb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]   File "/srv/my_project/app/webapp/webapp/views.py", line 19
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]     https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEE4UXBsTGtUcUlSaTQyUmROS194aWc&usp=sharing
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92]          ^
+[Wed Mar 12 15:39:15 2014] [error] [client 141.106.202.92] SyntaxError: invalid syntax

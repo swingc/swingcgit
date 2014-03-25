@@ -1,0 +1,2 @@
+[Sun Mar 16 00:24:26 2014] [error] [client 66.249.64.191] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Sun Mar 16 02:41:05 2014] [error] [client 108.35.150.20] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt

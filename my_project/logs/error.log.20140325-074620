@@ -1,0 +1,6 @@
+[Tue Mar 25 07:46:20 2014] [error] [client 180.76.5.168] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Tue Mar 25 08:53:55 2014] [error] [client 114.223.172.142] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 25 08:58:41 2014] [error] [client 114.223.172.142] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 25 11:40:46 2014] [error] [client 218.30.103.60] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Tue Mar 25 11:53:21 2014] [error] [client 198.50.128.244] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Mar 25 21:07:26 2014] [error] [client 216.145.5.42] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt

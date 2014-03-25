@@ -1,0 +1,19 @@
+[Mon Mar 10 04:54:39 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 10 05:03:23 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 10 05:35:25 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico, referer: http://swingc.com/xjjjhb/
+[Mon Mar 10 10:36:31 2014] [error] [client 209.126.230.76] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Mon Mar 10 19:07:27 2014] [error] [client 65.55.52.116] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Mon Mar 10 20:53:45 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 10 21:42:23 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 10 21:42:23 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 11 01:42:24 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 11 02:51:28 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 11 04:48:50 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico, referer: http://swingc.com/dr/
+[Tue Mar 11 06:44:01 2014] [error] [client 114.225.133.116] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 11 06:47:31 2014] [error] [client 114.225.133.116] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Tue Mar 11 18:46:25 2014] [error] [client 218.30.103.60] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Wed Mar 12 00:55:05 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Wed Mar 12 01:23:30 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Wed Mar 12 02:04:47 2014] [error] [client 198.20.70.114] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Wed Mar 12 02:46:45 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Wed Mar 12 02:46:45 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico

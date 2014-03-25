@@ -1,0 +1,31 @@
+[Wed Mar 12 17:05:56 2014] [error] [client 216.145.17.190] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Wed Mar 12 17:58:55 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Wed Mar 12 19:48:44 2014] [error] [client 123.125.71.117] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Wed Mar 12 22:38:40 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Wed Mar 12 22:38:40 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 01:45:25 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 01:45:25 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 02:22:40 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 02:22:40 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 03:21:38 2014] [error] [client 92.240.68.152] request failed: error reading the headers
+[Thu Mar 13 06:22:50 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 07:42:25 2014] [error] [client 69.162.64.99] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Thu Mar 13 10:00:09 2014] [error] [client 66.249.76.142] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Thu Mar 13 13:39:04 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 15:10:19 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 15:10:19 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 15:12:24 2014] [error] [client 82.145.210.159] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico, referer: http://www.swingc.com/
+[Thu Mar 13 16:13:03 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 16:13:03 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Thu Mar 13 22:51:26 2014] [error] [client 218.30.103.60] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Fri Mar 14 05:14:35 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico, referer: http://swingc.com/dr/
+[Fri Mar 14 06:30:22 2014] [error] [client 69.58.178.57] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Fri Mar 14 06:30:23 2014] [error] [client 69.58.178.57] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Fri Mar 14 15:20:23 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Fri Mar 14 15:20:23 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Fri Mar 14 15:20:33 2014] [error] [client 198.20.99.130] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Fri Mar 14 18:16:52 2014] [error] [client 141.106.202.92] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Sat Mar 15 03:24:14 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Sat Mar 15 05:30:05 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Mar 15 21:55:16 2014] [error] [client 157.56.229.189] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt
+[Sat Mar 15 22:25:07 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico

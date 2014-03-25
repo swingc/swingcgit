@@ -1,0 +1,5 @@
+184.58.162.245 - - [15/Mar/2014:22:37:45 +0000] "GET /cgin/ HTTP/1.1" 200 485 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36"
+184.58.162.245 - - [15/Mar/2014:22:38:38 +0000] "GET /cginv HTTP/1.1" 301 351 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36"
+184.58.162.245 - - [15/Mar/2014:22:38:38 +0000] "GET /cginv/ HTTP/1.1" 200 480 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36"
+184.58.162.245 - - [15/Mar/2014:22:38:42 +0000] "GET /favicon.ico HTTP/1.1" 404 500 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36"
+184.58.162.245 - - [15/Mar/2014:22:38:42 +0000] "GET /favicon.ico HTTP/1.1" 404 500 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36"

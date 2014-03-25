@@ -1,0 +1,33 @@
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245] mod_wsgi (pid=3604): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 12
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]     url(r'^time',current_time);
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245]                               ^
+[Mon Mar 10 04:11:42 2014] [error] [client 184.58.162.245] SyntaxError: invalid syntax
+[Mon Mar 10 04:11:43 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245] mod_wsgi (pid=3604): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 12
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]     url(r'^time',current_time);
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245]                               ^
+[Mon Mar 10 04:11:53 2014] [error] [client 184.58.162.245] SyntaxError: invalid syntax

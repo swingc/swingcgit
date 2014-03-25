@@ -1,0 +1,2 @@
+[Mon Mar 17 02:24:36 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Mon Mar 17 02:26:01 2014] [error] [client 114.223.164.125] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico

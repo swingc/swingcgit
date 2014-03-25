@@ -1,0 +1,60 @@
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245] mod_wsgi (pid=20075): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 25, in <module>
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245]     url('^xjjchb2/$',xjjchb),
+[Mon Mar 17 02:44:55 2014] [error] [client 184.58.162.245] NameError: name 'xjjchb' is not defined
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245] mod_wsgi (pid=20075): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 25, in <module>
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245]     url('^xjjchb2/$',xjjchb),
+[Mon Mar 17 02:45:00 2014] [error] [client 184.58.162.245] NameError: name 'xjjchb' is not defined
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245] mod_wsgi (pid=20075): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 25, in <module>
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245]     url('^xjjchb2/$',xjjchb),
+[Mon Mar 17 02:45:04 2014] [error] [client 184.58.162.245] NameError: name 'xjjchb' is not defined
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245] mod_wsgi (pid=20075): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 25, in <module>
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245]     url('^xjjchb2/$',xjjchb),
+[Mon Mar 17 02:45:08 2014] [error] [client 184.58.162.245] NameError: name 'xjjchb' is not defined

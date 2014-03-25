@@ -1,0 +1,5 @@
+[Sun Mar 09 07:01:52 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico, referer: http://swingc.com/lljhb/
+[Sun Mar 09 17:32:26 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Sun Mar 09 20:39:10 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Sun Mar 09 20:39:10 2014] [error] [client 184.58.162.245] File does not exist: /srv/my_project/app/webapp/site_media/favicon.ico
+[Sun Mar 09 21:36:30 2014] [error] [client 66.249.75.226] File does not exist: /srv/my_project/app/webapp/site_media/robots.txt

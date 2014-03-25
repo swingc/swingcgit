@@ -1,0 +1,2 @@
+184.58.162.245 - - [12/Mar/2014:03:42:04 +0000] "GET /jipiao HTTP/1.1" 500 635 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"
+184.58.162.245 - - [12/Mar/2014:03:42:05 +0000] "GET /favicon.ico HTTP/1.1" 404 503 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36"

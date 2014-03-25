@@ -1,0 +1,18 @@
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245] mod_wsgi (pid=19920): Exception occurred processing WSGI script '/srv/my_project/app/conf/apache/django.wsgi'.
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245] Traceback (most recent call last):
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     response = self.get_response(request)
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 234, in handle_uncaught_exception
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     if resolver.urlconf_module is None:
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/core/urlresolvers.py", line 341, in urlconf_module
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     self._urlconf_module = import_module(self.urlconf_name)
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/venv/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     __import__(name)
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/urls.py", line 3, in <module>
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     from webapp.views import baojiabiao,baojia,instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,sjyjh,sjyjhb,sjych,sjychb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]   File "/srv/my_project/app/webapp/webapp/views.py", line 79
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     <iframe src="https://docs.google.com/forms/d/1ba4pS28e5MVnibkzLUaTYTGFUpfyMVCyr8L62utSG0w/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245]     ^
+[Mon Mar 17 02:43:59 2014] [error] [client 184.58.162.245] SyntaxError: invalid syntax
