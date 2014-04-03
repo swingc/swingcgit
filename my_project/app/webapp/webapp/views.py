@@ -34,12 +34,12 @@ def dealin(request):
 
 def dr(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dG9sX1I0Tm5KZ3hLMG5KR2pUb19HMFE&usp=sharing" width="1200" height="600"  frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dG9sX1I0Tm5KZ3hLMG5KR2pUb19HMFE&usp=sharing" width="1200" height="800"  frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
     return HttpResponse(html)
 
 def cgckb(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEUyZkJiRHdSQlhWTmNTcmtGQ0JJYVE&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0AlZnvpvCu761dEUyZkJiRHdSQlhWTmNTcmtGQ0JJYVE&usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
     return HttpResponse(html)
 
 
@@ -51,7 +51,7 @@ def cgin(request):
 
 def cginv(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0Apf9w0x6momDdFRHRmh0bzZzd0ZGS2lZVW13MWVYakE&usp=sharing" width="1600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheet/ccc?key=0Apf9w0x6momDdFRHRmh0bzZzd0ZGS2lZVW13MWVYakE&usp=sharing" width="1600" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 
