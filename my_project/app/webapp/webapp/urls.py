@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from webapp.views import gcin,legolink,lishulink,baojiabiao,baojia,instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,sjyjh,sjyjhb,sjych,sjychb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+from webapp.views import zhuoyajinhuo,gcin,legolink,lishulink,baojiabiao,baojia,instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,sjyjh,sjyjhb,sjych,sjychb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
 
 from django.contrib import admin
 admin.autodiscover()
@@ -30,6 +30,7 @@ urlpatterns = patterns('',
 			url('^lishulink/$',lishulink),
 			url('^legolink/$',legolink),
 			url('^giftcardin/$',gcin),
+			url('^zyjh001/$',zhuoyajinhuo),
 			
  
 )
