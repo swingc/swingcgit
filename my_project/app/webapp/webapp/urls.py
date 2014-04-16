@@ -29,7 +29,7 @@ urlpatterns = patterns('',
 			url('^baojiabiao/$',baojiabiao),
 			url('^lishulink/$',lishulink),
 			url('^legolink/$',legolink),
-			url('^gcin/$',gcin),
+			url('^giftcardin/$',gcin),
 			
  
 )
