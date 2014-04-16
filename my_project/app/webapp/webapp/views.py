@@ -32,6 +32,13 @@ def dealin(request):
     html = """<html><body><iframe src="https://docs.google.com/forms/d/1U0SW8MkBsIvi1BQByJLHkrijCEpDW3LnsHPIFivoDX4/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
     return HttpResponse(html)
     
+    
+def zhuoyajinhuo(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1R_-tt-Qx-xZQzdhRdSzDUPvrlWe6xfWMUaTJuEN3B7A/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    return HttpResponse(html)
+    
+    
 def gcin(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/forms/d/1XEk2-efF5TqWHD4R_imP9edn7z5bWKs2aKfikUcrIKE/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
