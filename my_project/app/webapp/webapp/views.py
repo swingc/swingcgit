@@ -38,6 +38,11 @@ def zhuoyajinhuo(request):
     html = """<html><body><iframe src="https://docs.google.com/forms/d/1R_-tt-Qx-xZQzdhRdSzDUPvrlWe6xfWMUaTJuEN3B7A/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
     return HttpResponse(html)
     
+def zhuoyachuhuo(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1wOKg2i4i0PjmbM1xb7diqtfrfHtZywPKU6tNRuJRYJ0/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    return HttpResponse(html)
+    
     
 def gcin(request):
     now = datetime.datetime.now()
