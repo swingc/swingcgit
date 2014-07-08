@@ -142,7 +142,7 @@ def legolink(request):
 
 
 
-def instockbaby(request):
+def xujingbaby(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/1a4AUpnPz2NP3nTDt1FqcLTcPM1K1JUyF7STD4pweKIc/edit?usp=sharing" width="1000" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
     return HttpResponse(html)
