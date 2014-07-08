@@ -139,6 +139,16 @@ def legolink(request):
     return HttpResponse(html)
  
 
+
+
+
+def instockbaby(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/1a4AUpnPz2NP3nTDt1FqcLTcPM1K1JUyF7STD4pweKIc/edit?usp=sharing" width="1000" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe></body></html>"""
+    return HttpResponse(html)
+
+
+
 text = """<html><head></head><body topmargin = 100 leftmargin = 0><center><form method="get" action="/index/"> <font size="5">Search:</font><input type="text" name="a" value=""
 style="width:350px; height:35px; font-size:20px" size="30"><input type="submit" value="GO"></form></center></body></html>"""
 
