@@ -33,7 +33,7 @@ urlpatterns = patterns('',
 			url('^zyjh001/$',zhuoyajinhuo),
 			url('^zych001/$',zhuoyachuhuo),
 			url('^xujingbaby/$',xujingbaby),
-			url('^jeff001/$',xjeffForm),
+			url('^jeff001/$',jeffForm),
 			url('^garycgin/$',garyForm),
 			url('^cwyjxgin/$',cwyjxgForm),
 			
