@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 
-from webapp.views import xujingbaby,zhuoyachuhuo,zhuoyajinhuo,gcin,legolink,lishulink,baojiabiao,baojia,instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,sjyjh,sjyjhb,sjych,sjychb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
+from webapp.views import jeffForm, garyForm, cwyjxgForm,xujingbaby,zhuoyachuhuo,zhuoyajinhuo,gcin,legolink,lishulink,baojiabiao,baojia,instockbaby,jipiao, current_time,index,dr,hello, lljhb,llchb,sjyjh,sjyjhb,sjych,sjychb,dealin,cgin,cginv,cgckb, My_Homepage_view#, search_papers
 
 from django.contrib import admin
 admin.autodiscover()
@@ -33,6 +33,10 @@ urlpatterns = patterns('',
 			url('^zyjh001/$',zhuoyajinhuo),
 			url('^zych001/$',zhuoyachuhuo),
 			url('^xujingbaby/$',xujingbaby),
+			url('^jeff001/$',xjeffForm),
+			url('^garycgin/$',garyForm),
+			url('^cwyjxgin/$',cwyjxgForm),
+			
 			
  
 )
