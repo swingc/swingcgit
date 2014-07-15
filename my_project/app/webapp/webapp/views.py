@@ -79,7 +79,7 @@ def dealoffer(request):
 
 def dealoffersheet(request):
     now = datetime.datetime.now()
-    html = """<html><body><iframe src="https://docs.google.com/forms/d/1TanQ0qUjGZx3DQrcMaJjp0xxGb3rAoStdFYw61JzDlU/viewform?embedded=true" width="900" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    html = """<html><body><iframe src="https://docs.google.com/spreadsheets/d/19h-R6Cmu_-oV06ytxnsHI7haaDiwpjCr7Yr7IO1ewKk/edit?usp=sharing" width="900" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
     return HttpResponse(html)
 
 
