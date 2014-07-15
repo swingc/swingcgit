@@ -68,6 +68,13 @@ def cgin(request):
     
     
 
+
+
+def dealoffer(request):
+    now = datetime.datetime.now()
+    html = """<html><body><iframe src="https://docs.google.com/forms/d/1TanQ0qUjGZx3DQrcMaJjp0xxGb3rAoStdFYw61JzDlU/viewform?embedded=true" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
+    return HttpResponse(html)
+
 def jeffForm(request):
     now = datetime.datetime.now()
     html = """<html><body><iframe src="https://docs.google.com/forms/d/1D50-MfJ58eZvSxQao7-Jo1VZp6lQAjzgTyNIPmg4LtU/viewform?embedded=true" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></body></html>"""
